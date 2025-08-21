@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .menu{
+            background-color: #e5e5e5;
+        }
+        .menu h1{
+            font-size: 50px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }  
+        .card{
+           
+            box-shadow: 15px 20px 20px rgba(0,0,0,3);
+            margin: 20px 60px;
+        }  
+        #Order{
+            justify-content: center;
+            text-align: center;
+        }
+
+    </style>
+
+ 
+</head>
+<body>
+    <div class="carousel slide" id="slide">
+        <div class="carousel-inner" >
+            <div class="carousel-item">
+                <img src="image/F4.jpg" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="image/F5.png" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item active">
+                <img src="image/F6.avif" alt="" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="image/F7.jpg" alt="" class="d-block w-100">
+            </div>
+        </div>
+        <button type="button" class="carousel-control-prev"
+        data-bs-target="#slide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+         <button type="button" class="carousel-control-next"
+        data-bs-target="#slide" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <section class="menu">
+        <div class="container my-5">
+            <h1 class="text-center my-5">OUR MENU</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H1.jpg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H5.webp" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H6.avif" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H7.jpg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H8.jpg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H9.jpg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H10.jpg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H11.jpeg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H12.jpg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H13.jpeg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H14.jpg" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="image/H15.avif" class="card-img-top" alt="">
+                        <a href="#" class="btn btn-primarry">Add</a>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5" id="Order" >
+     <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#mymodal">Order now</button>
+     <div class="modal" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Success !!</h1>
+                </div>
+                <div class="modal-body">
+                    Order completed, appreciate your reply.!!!
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>             
+        </div>
+     </div>
+    </section>
+
+    
+</body>
+</html>
